@@ -36,6 +36,7 @@ Performs detailed EDA with histograms, boxplots, stripplots, and correlation ana
 Complete project for predicting Expected CTC using Random Forest Regression.
 Includes full data cleaning, feature engineering, normalization, encoding, hyperparameter tuning, and model persistence using joblib.
 Also allows interactive prediction through user input.
+
 ---------------------------------------------------------------
 ### 📂 Datasets Required
 Each file expects a specific dataset to be present in the same directory as the script:
