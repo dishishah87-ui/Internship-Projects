@@ -1,28 +1,37 @@
 -----------------------------------------------------------
-### 📁 Files and Their Purpose
+### Files and Their Purpose
+
 **eda.py**
 Performs exploratory data analysis on the Goodreads dataset.
 Includes duplicate removal, outlier detection, missing value treatment, normalization, and encoding.
+
 **linear_regression.py**
 Applies Multiple Linear Regression to the Advertising dataset to predict sales based on TV, Radio, and Newspaper spends.
+
 **logistic_regression.py**
 Builds a Logistic Regression classifier for the Breast Cancer dataset.
 Includes feature scaling, ROC curve, confusion matrix, cross-validation, and hyperparameter tuning.
+
 **decision_tree.py**
 Trains a Decision Tree Classifier on the Iris dataset.
 Performs feature importance analysis, tree visualization, and bagging ensemble improvement.
+
 **random_forest.py**
 Uses a Random Forest Regressor to predict insurance charges.
 Includes EDA, label encoding, GridSearchCV for hyperparameter tuning, and regression metrics (R², MAE, RMSE).
+
 **k_means_clustering.py**
 Performs K-Means clustering on the Mall Customers dataset.
 Uses the Elbow Method and Silhouette Score to find the optimal number of clusters.
+
 **lda.py**
 Implements Linear Discriminant Analysis (LDA) for dimensionality reduction and classification on the Breast Cancer dataset.
 Includes scaling, training, and visualizing the class separation.
+
 **knn.py**
 Applies K-Nearest Neighbors and Gaussian Naive Bayes classifiers on the Social Network Ads dataset.
 Performs detailed EDA with histograms, boxplots, stripplots, and correlation analysis.
+
 **majorproject.py**
 Complete project for predicting Expected CTC using Random Forest Regression.
 Includes full data cleaning, feature engineering, normalization, encoding, hyperparameter tuning, and model persistence using joblib.
